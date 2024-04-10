@@ -15,6 +15,7 @@ import { Parallax } from "react-parallax";
 import FooterPanel from "./components/footer/footer.component";
 
 import "./App.css";
+import Experience from "./pages/experience/experience.component";
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
         params={particlesOptions}
       /> */}
 
-      <div>
+      <div id="about">
         <Parallax
           blur={{ min: -30, max: 30 }}
           bgImage={require("./assets/img/parallex/background.webp")}
@@ -43,25 +44,38 @@ const App = () => {
           </div>
         </Parallax>
       </div>
-      <Container className="container-box rounded">
-        <Slide bottom duration={500}>
-          <hr />
-          <Skills />
-        </Slide>
-      </Container>
-      <Container className="container-box rounded">
-        <Slide bottom duration={500}>
-          <hr />
-          <TimeLine />
-        </Slide>
-      </Container>
-      <Container className="container-box rounded">
-        <Fade duration={500}>
-          <hr />
-          <ContactForm />
-        </Fade>
-      </Container>
-
+      <div id="skills">
+        <Container className="container-box rounded">
+          <Slide bottom duration={500}>
+            <hr />
+            <Skills />
+          </Slide>
+        </Container>
+      </div>
+      <div id="experience">
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+            <Experience />
+          </Fade>
+        </Container>
+      </div>
+      <div id="projects">
+        <Container className="container-box rounded">
+          <Slide bottom duration={500}>
+            <hr />
+            <TimeLine />
+          </Slide>
+        </Container>
+      </div>
+      <div id="contact">
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+            <ContactForm />
+          </Fade>
+        </Container>
+      </div>
       <hr />
       <FooterPanel />
     </div>

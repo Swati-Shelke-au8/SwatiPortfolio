@@ -29,23 +29,31 @@ const About = () => {
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Swati Ashok Shelke</strong>
                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A passionate
-                programmer and a Coach, born and brought up in India. I am a
-                Full Stack Web Developer with React.js,Redux,as my tech stack.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A passionate Frontend
+                Developer based in Pune, India. With over 4 years of experience
+                in building client-server web applications, I thrive on creating
+                intuitive and visually appealing user interfaces that leave a
+                lasting impression.
                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In 2015, I
-                successfully completed my Engineering with specialization in
-                'Electronics and Telecommunication'.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Armed with a
+                Bachelor's degree in Electronics and Tele-Communication
+                Engineering, I've honed my skills in HTML, CSS, JavaScript,
+                React JS, and Redux. From enhancing functionality to improving
+                design and providing technical support, I'm dedicated to
+                delivering top-notch solutions that meet the needs of users and
+                businesses alike.
                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Working with the
-                clients, my goal is always driven towards providing amazing
-                experience with the best level of quality and service to them.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As a detail-oriented
+                and collaborative developer, I believe in the power of
+                continuous learning and staying updated with the latest industry
+                trends. When I'm not coding, you'll find me exploring new design
+                trends, working on personal projects, or enjoying a cup of
+                coffee while brainstorming new ideas.
                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Along with that, I
-                also help people as a COACH on their journey of becoming a
-                professional programmer. I love learning about new technologies,
-                what problems are they solving and How can I use them to build
-                better and scalable products.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Always open to new
+                opportunities and collaborations, let's connect and create
+                something amazing together! Feel free to reach out to me via
+                email or connect with me on LinkedIn.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
@@ -57,7 +65,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1CGbLytq9ZzTLdyUraxxI-rH82n3UmI6G/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1winS_UCuqkDbnB9Q2jLj9BFWEXTJRUMF/view?usp=drive_link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
