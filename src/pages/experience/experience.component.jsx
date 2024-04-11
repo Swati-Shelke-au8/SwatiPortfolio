@@ -129,7 +129,7 @@ const Experience = () => {
                   <strong>Technology:</strong> React JS, HTML, CSS, BootStrap,
                   JavaScript, Python
                   <br />
-                  <strong>Duration:</strong> March 2020 - Feb 2021
+                  <strong>Duration:</strong> May 2020 - April 2021
                   <br />
                   <strong> Description </strong>
                   <ul className="text-left">
@@ -189,7 +189,7 @@ const Experience = () => {
                   <br />
                   <strong>Technology:</strong> MS-Office, Networking tools
                   <br />
-                  <strong>Duration:</strong> July 2017 - March 2021
+                  <strong>Duration:</strong> July 2017 - March 2020
                   <br />
                   <strong> Description </strong>
                   <ul className="text-left">
